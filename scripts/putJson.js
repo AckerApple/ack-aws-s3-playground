@@ -1,0 +1,1 @@
+require('../putObject')('{"hello" :"worlds"}', 'ack-json-test.json')

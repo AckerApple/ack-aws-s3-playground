@@ -1,0 +1,35 @@
+{
+  "name": "ack-aws-s3-playground",
+  "version": "1.0.0",
+  "description": "A package with tests and examples for learning how aws s3 connections are handled in NodeJs and Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all": "npm run listBuckets && npm run putJson && npm run getJson && npm run putText && npm run getText && npm run putImage && npm run getImage",
+    "listBuckets": "node ./scripts/listBuckets",
+    "putJson": "node ./scripts/putJson",
+    "getJson": "node ./scripts/getJson",
+    "putText": "node ./scripts/putText",
+    "getText": "node ./scripts/getText",
+    "putImage": "node ./scripts/putImage",
+    "getImage": "node ./scripts/getImage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AckerApple/ack-aws-s3-playground.git"
+  },
+  "keywords": [
+    "aws",
+    "kms",
+    "s3"
+  ],
+  "author": "Acker Apple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AckerApple/ack-aws-s3-playground/issues"
+  },
+  "homepage": "https://github.com/AckerApple/ack-aws-s3-playground#readme",
+  "dependencies": {
+    "node-s3-encryption-client": "0.0.2"
+  }
+}
