@@ -2,10 +2,18 @@
 A package with tests and examples for learning how aws s3 connections are handled in NodeJs and Javascript
 
 ### Table of Contents
+- [Installation Summary](#installation-summary)
 - [OS Install Dependencies](#os-install-dependencies)
 - [Installation](#installation)
 - [Install Local Folder Dependencies](#install-local-folder-dependencies)
 - [Run Tests and Scripts](#run-tests-and-scripts)
+
+## Installation Summary
+The following steps will need to be, or have been performed before running scripts in this package
+
+- Install NodeJs 6+
+- Check-out or download ack-aws-s3-playground to a folder
+- Use command terminal to have npm install the local dependencies of ack-aws-s3-playground
 
 
 ## OS Install Dependencies

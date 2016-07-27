@@ -28,7 +28,8 @@ try{
 }
 
 if(!s3Params || !s3Params.Bucket){
-  throw new Error('\x1b[31mPlease ensure '+s3ParamsPath+' contains proper values\x1b[0m')
+  console.log('\x1b[31mPlease ensure '+s3ParamsPath+' contains proper values\x1b[0m')
+  process.exit()
 }
 
 module.exports = s3Params

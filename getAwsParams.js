@@ -25,7 +25,8 @@ try{
 }
 
 if(!awsParams || !awsParams.accessKeyId || !awsParams.secretAccessKey || !awsParams.region){
-  throw new Error('\x1b[31mPlease ensure '+awsParamsPath+' contains proper values\x1b[0m')
+  console.log('\x1b[31mPlease ensure '+awsParamsPath+' contains proper values\x1b[0m')
+  process.exit()
 }
 
 module.exports = awsParams
