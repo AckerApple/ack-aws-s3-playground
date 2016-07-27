@@ -47,7 +47,7 @@ After a script runs, watch the console for instructions on success or failure
 npm run all
 ```
 
-### Run Selected Script
+### Run a Selected Script
 After a script runs, watch the console for instructions on success or failure
 
 > In command terminal, type ONE of the following commands
