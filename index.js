@@ -1,0 +1,1 @@
+console.log('\x1b[31mNo index intended for this package. Scripts are intended to be run via package.json and commands like "npm run all"\x1b[0m')
