@@ -41,6 +41,7 @@ Currently, only manual scripts exists, no tests have been created to test the ex
 After a script runs, watch the console for instructions on success or failure
 
 > In command terminal, type the following command
+>> An error is expected for atleast the first TWO times you run this script, follow the onscreen instructions to set aws & s3 access credentials
 
 ```
 npm run all
@@ -50,6 +51,7 @@ npm run all
 After a script runs, watch the console for instructions on success or failure
 
 > In command terminal, type ONE of the following commands
+>> An error is expected for atleast the first TWO times you run any script below, follow the onscreen instructions to set aws & s3 access credentials
 
 ```
 npm run listBuckets
