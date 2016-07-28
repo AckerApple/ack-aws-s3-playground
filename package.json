@@ -1,6 +1,6 @@
 {
   "name": "ack-aws-s3-playground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package with tests and examples for learning how aws s3 connections are handled in NodeJs and Javascript",
   "main": "index.js",
   "scripts": {
