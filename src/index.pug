@@ -1,0 +1,22 @@
+//-isSfx = true
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0")
+
+    //-if !isSfx
+      script(src="https://code.angularjs.org/tools/system.js")
+
+    //-link(href="./assets/styles/styles.css" type="text/css" rel="stylesheet")
+    script(src="./app.js")
+    
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,600italic,600,400italic,700italic,800,800italic" rel="stylesheet" type="text/css")
+    link(href="./assets/fonts/tap2care/css/tap2care.css" rel="stylesheet" type="text/css")
+      
+    //-if !isSfx
+      script.
+        System.import('src/test.js');
+
+  body
+    |Hello World

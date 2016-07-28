@@ -6,7 +6,7 @@ var s3Params = require('./getS3Params')
 module.exports = putObject
 
 function putObject(body, path, params={}){
-  params.KmsParams = s3Params
+  params.KmsParams = s3Params.KmsParams
 
   params.Bucket = s3Params.Bucket
   params.Body = body//'{"hello": "world"}'
