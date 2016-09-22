@@ -1,6 +1,6 @@
 var util = require('util')
 require('./param-aws-vars')
-var s3 = require('node-s3-encryption-client')
+var s3 = require('ack-aws-s3-universal')//require('node-s3-encryption-client')
 var s3Params = require('./getS3Params')
 
 module.exports = putObject
